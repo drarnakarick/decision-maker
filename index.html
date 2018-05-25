@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!--
+	Urban by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>tech savvy decision maker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<script src="assets/js/jquery.min.js"></script>
+
+		<script>
+
+		function display_random_hack(hack) {
+			// parse out the fields
+			hack_fields = hack.split(',');
+			ShortDescription = hack_fields[0];
+		  Category = hack_fields[1];
+		//	WhichConference = hack_fields[2];
+		//	AuthorName = hack_fields[3];
+		//	TwitterHandle = hack_fields[4];
+		//	Link = hack_fields[5];
+		//	TweetLink = hack_fields[6];
+
+			// update the html
+			$('h1').hide().html(Category).fadeIn('fast');
+			$('.ShortDescription').hide().html(ShortDescription).fadeIn('fast');
+		}
+
+		function get_random_hack(hack_data) {
+				hack_count = hack_data.length
+				random = Math.floor(Math.random() * hack_count) + 1
+				return hack_data[random];
+			}
+
+	  $(function() {
+			// read in the hack data on page load
+			$.ajax({
+					type: "GET",
+					url: "kitkat.csv",
+					dataType: "text",
+					success: function(data) {
+						hack_data = data.split("\n");
+						hack = get_random_hack(hack_data);
+						display_random_hack(hack);
+					}
+			 });
+
+			 $('a.button.big.scrolly').click(function() {
+	 			hack = get_random_hack(hack_data);
+				display_random_hack(hack);
+	 			return false;
+	 		});
+
+	  });  // ready
+
+	  </script>
+
+	</head>
+
+	<body>
+		<!-- Header -->
+			<header id="header" class="alt">
+        <div class="logo"><a href="https://www.arnakarick.com/"><img src="techsavvy-logo-white-small.png" width="70%"></a>
+        </div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+
+					<header>
+            <h1></h1>
+						<p class = "ShortDescription"></p>
+					</header>
+					<a href="" class="button big scrolly">next suggestion</a>
+				</div>
+
+			</section>
+
+
+		<!-- Footer
+			<footer id="footer">
+				<div class="copyright">
+					<ul class="icons">
+						<li><a href="https://github.com/WillArmentrout/dotAstroGraveyard" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					</ul>
+					<p>Photo by RhondaK Native Florida Folk Artist on Unsplash</p>
+				</div>
+			</footer>  -->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
