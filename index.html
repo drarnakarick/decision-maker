@@ -18,8 +18,9 @@
 		function display_random_hack(hack) {
 			// parse out the fields
 			hack_fields = hack.split(',');
-			ShortDescription = hack_fields[0];
-		  Category = hack_fields[1];
+		  Category = hack_fields[0];
+      ShortDescription = hack_fields[1];
+      Link = hack_fields[2];
 		//	WhichConference = hack_fields[2];
 		//	AuthorName = hack_fields[3];
 		//	TwitterHandle = hack_fields[4];
@@ -27,8 +28,9 @@
 		//	TweetLink = hack_fields[6];
 
 			// update the html
-			$('h1').hide().html(Category).fadeIn('fast');
+			$('.Category').hide().html(Category).fadeIn('fast');
 			$('.ShortDescription').hide().html(ShortDescription).fadeIn('fast');
+      $('.Link').hide().html(Link).fadeIn('fast');
 		}
 
 		function get_random_hack(hack_data) {
@@ -50,7 +52,7 @@
 					}
 			 });
 
-			 $('a.button.big.scrolly').click(function() {
+			 $('a.button.big').click(function() {
 	 			hack = get_random_hack(hack_data);
 				display_random_hack(hack);
 	 			return false;
@@ -74,10 +76,11 @@
 				<div class="inner">
 
 					<header>
-            <h1>Need a break?</h1>
+            <h1>Feeling <span class ="Category" style="color:#eca654"></span></h1>
 						<p class = "ShortDescription"></p>
+            <p class = "Link"></p>
 					</header>
-					<a href="" class="button big scrolly">next suggestion</a>
+					<a href="" class="button big">show me another</a>
 				</div>
 
 			</section>
