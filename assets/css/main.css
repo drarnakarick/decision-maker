@@ -1884,7 +1884,7 @@
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 700;
+		font-weight: 500;
 		height: 2.4em;
 		line-height: 2.5em;
 		padding: 0 1.5em;
@@ -1978,7 +1978,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #4aa3df;
+			background-color: #31719b;
 		}
 
 		input[type="submit"]:active,
@@ -1986,7 +1986,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #258cd1;
+			background-color: #31719b;
 		}
 
 		input[type="submit"].alt,
