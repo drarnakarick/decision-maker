@@ -1658,22 +1658,29 @@
 
 	p {
 		margin: 0 0 2em 0;
+    font-weight: 300;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
+
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
 		}
 
 	h1 {
 		font-size: 3em;
-		margin-bottom: .25em;
+    font-weight: 700;
+	}
+
+	h2 {
+		font-size: 2em;
+    font-weight: 500;
+    color: #FFF;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -1683,10 +1690,6 @@
 			}
 
 		}
-
-	h2 {
-		font-size: 2.5em;
-	}
 
 		@media screen and (max-width: 736px) {
 
@@ -2719,14 +2722,16 @@
 		text-align: center;
 	}
 
-	header p {
+	header h1 + p {
 		position: relative;
 		margin: 0 0 1.5em 0;
+    margin-bottom: 2em;
 	}
 
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
+    margin-bottom: 2em;
 	}
 
 	header h3 + p {
@@ -3710,8 +3715,9 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/olympus_mons.jpg");
-		background-position: center;
+	/*	background-image: url("../../images/olympus_mons.jpg"); */
+		background-image: url("../../images/samuel-zeller-113380-unsplash-small.jpg");
+    background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		border-top: 0;
@@ -3743,7 +3749,7 @@
 		}
 
 		#banner p {
-			color: rgba(255, 255, 255, 0.85);
+			color: rgba(255, 255, 255, 0.8);
 			font-size: 1.75em;
 		}
 
