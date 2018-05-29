@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Poppins:700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700");
 /*
 	Urban by TEMPLATED
 	templated.co @templatedco
@@ -1678,7 +1678,7 @@
 	}
 
 	h2 {
-		font-size: 2em;
+		font-size: 2.5em;
     font-weight: 500;
     color: #FFF;
 	}
@@ -1885,8 +1885,8 @@
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
-		height: 2.85em;
-		line-height: 2.95em;
+		height: 2.4em;
+		line-height: 2.5em;
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
@@ -1969,7 +1969,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #3498db;
+		background-color: #31719b;
 		color: #fff !important;
 	}
 
