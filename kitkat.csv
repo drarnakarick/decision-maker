@@ -1,5 +1,6 @@
 Category,ShortDescription,Link
 inspired?,Watch Nancy Duarte’s TED talk: The secret structure of great talks,http://
+inspired?,Watch David McCandless’s TED talk: The beauty of data visualisation,http://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization?language=en 
 inspired?,Watch Guy Kawaski’s TED talk: The art of innovation,http://
 curious?,Read a draft chapter from Andrew Ng’s new Machine Learning book,http://
 curious?,Learn more about Blockchain,http://
@@ -15,7 +16,9 @@ curious?,Catch up on news/resources from the MLAI Slack group,Slack channel
 curious?,Read the +Acumen blog & check out the latest courses,
 curious?,Work through the scikit–learn tutorials,
 overwhelmed?,Enjoy a cuppa and read a white paper,
+overwhelmed?,Enjoy a cuppa and read Tim Brown’s Design Thinking blog,
 overwhelmed?,Enjoy a cuppa and read Brainpickings,
+curious?,Read one of O’Reilly’s e-Books,
 overwhelmed?,Enjoy a cuppa and listen to NPR’s All Things Considered podcast,
 overwhelmed?,Enjoy a cuppa and read Rocket Women,
 overwhelmed?,Evernote Journaling,
@@ -26,6 +29,7 @@ inspired?,Read Planet Lab Stories,
 inspired?,Read the Matters Journal,
 curious?,Explore Tensor Flow,
 curious?,Work through the ADACS tutorial,
+curious?,Enjoy a cuppa and read the O’Reilly Ideas blog,
 creative?,Learn about Tableau dashboards,
 creative?,Create a Bokeh application,
 curious?,Work through the NLTK tutorials,
@@ -45,11 +49,21 @@ curious?,Read Stefan Moritz’s Service Design: Practical Access to an Evolving 
 overwhelmed?,Enjoy a cuppa and listen to the Design Matters podcast,
 inspired?,Read through IDEO’s Circular Design Guide,https://www.circulardesignguide.com/
 curious?,Learn more about design ethnography,
+curious?,Find out more about the Responsible AI movement,
 inspired?,Read though the Dalberg Data Insights and Research projects,
 overwhelmed?,Enjoy a cuppa and read the 2018 Design in Tech report,https://designintech.report/
 overwhelmed?,Enjoy a cuppa and read John Maeda’s blog,https://maeda.pm/
 inspired?,"Watch John Maeda’s TED talk: How art, technology, and design inform creative leadership",https://www.ted.com/talks/john_maeda_how_art_technology_and_design_inform_creative_leaders
 creative?,Watch the latest Creative Mornings talk,
+overwhelmed?,Enjoy a cuppa and read Extraordinary Routines,
+curious?,Work through the R for Data Science book,http://r4ds.had.co.nz/ 
+curious?,Work through the Advanced R book,https://adv-r.hadley.nz/ 
+curious?,Work though the Data Algorithms in R wiki book,https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R
+curious?,Check out the textblob 0.15.1 python package,https://pypi.org/project/textblob/
+curious?,Check out the gensim 3.4.0 python package,https://pypi.org/project/gensim/
+curious?,Read through the Neural Networks and Deep Learning book,http://neuralnetworksanddeeplearning.com/
+curious?,Check out http://deeplearning.net/,http://deeplearning.net/
+curious?,Check out https://www.programmableweb.com/,https://www.programmableweb.com/
 inspired?,Enjoy a cuppa and read Futurism,
-creative?,Enjoy a cuppa and listen to the Data Stories Podcast,
-creative?,Read the Information is Beautiful Blog,
+creative?,Enjoy a cuppa and listen to the Data Stories podcast,
+creative?,Enjoy a cuppa and read the Information is Beautiful blog,
